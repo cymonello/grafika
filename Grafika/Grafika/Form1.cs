@@ -15,6 +15,8 @@ namespace Grafika
         public Form1()
         {
             InitializeComponent();
+            VectorField v = new VectorField(new Funkcja());
+            v.paint(this.panel1);
         }
     }
 }
